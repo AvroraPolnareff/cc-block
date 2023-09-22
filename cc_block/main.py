@@ -14,6 +14,7 @@ class LauchkeyLights:
 
     def change_light(self, number, toggle):
         self.midiout.send_message(self.port, self.lights(number), 127 if toggle else 0)
+        
 
 
 class Sequencer:
