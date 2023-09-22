@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cc-block"
+version = "0.1.0"
+description = ""
+authors = ["Avrora Polnareff <AraInTheSkyWith@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-rtmidi = "^1.5.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
